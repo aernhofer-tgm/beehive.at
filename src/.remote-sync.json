@@ -1,0 +1,12 @@
+{
+  "transport": "ftp",
+  "hostname": "ftp.secureconnect.at",
+  "port": "21",
+  "username": "beehive.at",
+  "password": "UazfAu8U",
+  "target": "/htdocs/wp-content/themes/Beehive",
+  "ignore": [
+    ".git/**"
+  ],
+  "uploadOnSave": true
+}
