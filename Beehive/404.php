@@ -10,12 +10,6 @@
 
   <script src="/wp-content/themes/Beehive/external/jquery/jquery.js"></script>
   <script src="/wp-content/themes/Beehive/external/bootstrap/js/bootstrap.js"></script>
-
-  <!--pagePiling jquery scrolling plugin-->
-  <link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/external/pagepiling/jquery.pagepiling.css"/>
-  <script type="text/javascript" src="/wp-content/themes/Beehive/external/pagepiling/jquery.pagepiling.min.js"></script>
-  <script type="text/javascript" src="/wp-content/themes/Beehive/scripts/scrolljacking_pagepiling.js"></script>
-
 </head>
 
 <body>

@@ -1,7 +1,7 @@
 $(function(){
   $('#pagepiling').pagepiling({
         scrollingSpeed: 700,
-        easing:'linear',
+        easing:'swing',
         navigation: {
             'bulletsColor': '#ddd'
         }

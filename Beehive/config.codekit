@@ -279,6 +279,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/scripts\/min\/scrolljacking_pagepiling-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/min\/scrolljacking_pagepiling-min.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/min\/scrolljacking_pagepiling-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/scripts\/scrolljacking_pagepiling.js": {
 		"fileType": 64,
 		"ignore": 0,

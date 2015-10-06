@@ -1,6 +1,6 @@
 <div id="pagepiling">
 
-  <div class="section" style="background-color:white">
+  <div class="section pp-scrollable" style="background-color:white">
     <div class="container" style="margin-top:50px;">
 
       <fieldset>
@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <div class="section" style="background-color:white;">
+  <div class="section pp-scrollable" style="background-color:white;">
     <div class="container" style="margin-top:50px;">
       <fieldset>
         <legend>Projektbetreuer</legend>
