@@ -3,7 +3,7 @@
     <div class="menu-trigger">
       <span class="clickable">≡</span>
     </div>
-    <a href="#"><img class="l-collapsed" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo.png"></a>
+    <a href="?page=startseite"><img class="l-collapsed" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo.png"></a>
       <ul class="col-xs-12 nav-ul">
         <li class="nav-items first"><a style="cursor:default;"><img class="logo" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo.png" /></a></li>
         <li class="nav-items"><a href="?page=startseite">Startseite</a></li>
