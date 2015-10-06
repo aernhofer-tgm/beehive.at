@@ -13,5 +13,3 @@
     <div style="float:right;"><img id="it_logo" src="/wp-content/themes/Beehive/images/logo/it_logo.png" style="width:200px"></div>
   </div>
 </footer>
-</body>
-</html>

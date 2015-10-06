@@ -5,7 +5,7 @@
     </div>
     <a href="#"><img class="l-collapsed" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo.png"></a>
       <ul class="col-xs-12 nav-ul">
-        <li class="nav-items first"><a href="?page=startseite"><img class="logo" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo.png" /></a></li>
+        <li class="nav-items first"><a style="cursor:default;"><img class="logo" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo.png" /></a></li>
         <li class="nav-items"><a href="?page=startseite">Startseite</a></li>
         <hr class="lines" />
         <li class="nav-items"><a href="?page=projektbeschreibung">Projektbeschreibung</a></li>
