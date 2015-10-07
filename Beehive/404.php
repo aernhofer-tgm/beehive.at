@@ -7,6 +7,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:200' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/external/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/footer.css">
 
   <script src="/wp-content/themes/Beehive/external/jquery/jquery.js"></script>
   <script src="/wp-content/themes/Beehive/external/bootstrap/js/bootstrap.js"></script>
@@ -48,4 +49,4 @@
       <a class="btn btn-default" style="width:130px;margin-left:3px;" onClick="alert('Thank you for your support!\nA report has been sent to our team. :)');">Contact Support</a>
     </form>
   </div>
-<?php get_footer(); ?>
+<?php include(__DIR__."/pages/section_footer.php"); ?>

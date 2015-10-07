@@ -2,17 +2,17 @@
 <?php do_action('slideshow_deploy','38'); ?>
 <?php wp_footer(); ?>
 
-<div class="" style="height:200px;margin-top:2px;">
-  <div class="col-md-3" style="background-color:blue;color:white;height:100%;border-right:2px solid white;">
+<div class="startseite-wrapper">
+  <div class="kleine-container col-md-3 col-sm-6 col-xs-12 projektbeschreibung">
     <p>Über unser Projekt<p>
   </div>
-  <div class="col-md-3" style="background-color:red;color:white;height:100%;border-right:2px solid white;">
+  <div class="kleine-container col-md-3 col-sm-6 col-xs-12 team">
     <p>Wer war beteiligt</p>
   </div>
-  <div class="col-md-3" style="background-color:green;color:white;height:100%;border-right:2px solid white;">
+  <div class="kleine-container col-md-3 col-sm-6 col-xs-12 fortschritt">
     <p>Fortschritt</p>
   </div>
-  <div class="col-md-3" style="background-color:orange;color:white;height:100%;">
+  <div class="kleine-container col-md-3 col-sm-6 col-xs-12 feedback">
     <p>Gib uns ein Feedback</p>
   </div>
 </div>

@@ -1,0 +1,40 @@
+.startseite-wrapper {
+  height: 200px;
+  margin-top: 2px; }
+  .startseite-wrapper .kleine-container {
+    color: white;
+    height: 100%; }
+  .startseite-wrapper .projektbeschreibung {
+    background-color: blue; }
+  .startseite-wrapper .team {
+    background-color: red; }
+  .startseite-wrapper .fortschritt {
+    background-color: green; }
+  .startseite-wrapper .feedback {
+    background-color: orange; }
+
+/* Large desktop */
+@media screen and (min-width: 979px) {
+  .kleine-container {
+    border-right: 2px solid white; }
+
+  .kleine-container:last-of-type {
+    border: 0px; } }
+/* Portrait tablet to landscape and desktop */
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .kleine-container:nth-of-type(1) {
+    border-right: 2px solid white; }
+
+  .kleine-container:nth-of-type(3) {
+    border-right: 2px solid white; }
+
+  .kleine-container:nth-of-type(3) {
+    border-top: 2px solid white; }
+
+  .kleine-container:nth-of-type(4) {
+    border-top: 2px solid white; } }
+/* Landscape phone to portrait tablet */
+@media screen and (max-width: 767px) {
+  .kleine-container {
+    border-bottom: 2px solid white; } }
+/* Landscape phones and down */
