@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/external/pagepiling/jquery.pagepiling.css"/>
+
 <div id="pagepiling">
 
   <div class="section pp-scrollable" style="background-color:white">
