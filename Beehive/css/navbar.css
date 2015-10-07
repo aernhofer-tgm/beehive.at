@@ -167,4 +167,14 @@ hr.lines {
             display: none; } }
 .footer {
   position: absolute;
-  bottom: 0px; }
+  bottom: 0px;
+  margin-bottom: 20px; }
+  .footer p.footer_links {
+    margin: 0px; }
+  .footer p.copyright {
+    line-height: 80px;
+    text-align: center; }
+
+.slideshow_content {
+  width: auto;
+  height: 80%; }

@@ -1,9 +1,4 @@
 <div id="pagepiling">
-  <div class="section" style="background-color:white">
-    <?php wp_head(); ?>
-    <?php do_action('slideshow_deploy','38'); ?>
-    <?php wp_footer(); ?>
-  </div>
 
   <div class="section pp-scrollable" style="background-color:white">
     <div class="container" style="margin-top:50px;">
