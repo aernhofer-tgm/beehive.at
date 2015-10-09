@@ -1,9 +1,80 @@
+@mixin animAll300
+  -webkit-transition: all 0.3s ease
+  -ms-transition: all 0.3s ease
+  transition: all 0.3s ease
+@mixin animAll300Out
+  -webkit-transition: all 0.3s ease-out
+  -ms-transition: all 0.3s ease-out
+  transition: all 0.3s ease-out
+@mixin animTransY
+  -webkit-transform: -webkit-translateY(-50px)
+  -ms-transform: translateY(-50px)
+  transform: translateY(-50px)
+@mixin animTransYNone
+  -webkit-transform: -webkit-translateY(0px)
+  -ms-transform: translateY(0px)
+  transform: translateY(0px)
+
+$navbar-height: 44px
+
+.main-explore-btn:after
+  content: ''
+  position: absolute
+  z-index: -1
+  @include animAll300
+.home-top-container
+  .container
+    position: absolute
+    margin-top: 15%
+    right: 0px
+    left: 0px
+    z-index: 20
+.outer
+  display: table
+  position: relative
+  height: 100%
+  width: 100%
+  .inner
+    display: table-cell
+    vertical-align: middle
+    text-align: center
+    color: white
+    h1
+      font-size: 5em
+    small
+      font-size: 1.75em
+      font-weight: 300
+      margin-bottom: 20px
+    .btn-wrapper
+      margin-top: 50px
+      .main-explore-btn
+        padding: 8px 70px
+        background: rgba(255, 255, 255, 0.15)
+        font-size: 1.75em
+        border: 2px solid black
+        color: black
+        font-weight: 300
+        position: relative
+        @include animAll300
+        &:after
+          width: 0%
+          height: 100%
+          top: 0
+          left: 0
+          background: white
+        &:hover,
+        &:active
+          color: black
+          &:after,
+          &:after
+            width: 100%
 .startseite-wrapper
   height: 200px
   margin-top: 2px
   .kleine-container
-    color: white
     height: 100%
+    color: white
+/*
   .projektbeschreibung
     background-color: blue
   .team
@@ -12,13 +83,18 @@
     background-color: green
   .feedback
     background-color: orange
+    */
 
 /* Large desktop */
 @media screen and (min-width: 979px)
   .kleine-container
     border-right: 2px solid white
+    border-bottom: 2px solid white
   .kleine-container:last-of-type
     border: 0px
+@media screen and (max-width: 979px)
+  .kleine-container:nth-child(2)
+    border-right: none
 /* Portrait tablet to landscape and desktop */
 @media screen and (min-width: 768px) and (max-width: 979px)
   .kleine-container:nth-of-type(1)
@@ -35,3 +111,86 @@
     border-bottom: 2px solid white
 /* Landscape phones and down */
 @media screen and (max-width: 480px)
+
+/* v.1.1 by Ansh Nigggaaarrr*/
+.kleine-container
+  background: url('../images/tech1.jpg') no-repeat center center
+  background-size: 100%
+  padding: 0px
+  @include animAll300
+  &:hover
+    background-size: 120%
+  .top-layer
+    background: rgba(0,0,0,0.75)
+    width: 100%
+    height: 100%
+    padding: 15px 15px 0px 15px
+
+.inner-content
+  text-align: center
+  height: 100%
+  width: 100%
+  h3
+    font-size: 1.5em
+    margin-top: 0px
+    color: rgba(230, 207, 0, 1) !important
+  p
+    font-weight: 300
+    opacity: 0
+    @include animTransY
+    @include animAll300Out
+  .explore-btn
+    padding: 6px 15px
+    position: absolute
+    bottom: 10px
+    left: 0px
+    right: 0px
+    background-color: rgba(20,20,20,0.1)
+    border: 1px solid white
+    color: rgba(255,255,255,0.95)
+    font-weight: 300
+    width: 110px
+    margin: 0 auto
+    @include animAll300
+    &:hover
+      color: rgba(255,255,255,1)
+      background-color: rgba(20, 20, 20, 0.9)
+  &:hover
+    p
+      @include animTransYNone
+      opacity: 1
+
+/* some queries ne digga */
+@media screen and (max-width: 768px)
+  .home-top-container
+    .container
+      margin-top: 12%
+@media screen and (max-width: 768px)
+  .home-top-container
+    margin-top: $navbar-height
+    .container
+      margin-top: 4%
+  .inner-content
+    p
+      opacity: 1
+      @include animTransYNone
+@media screen and (max-width: 668px)
+  .home-top-container
+    .container
+      margin-top: 2%
+      .inner
+        h1
+          font-size: 2.5em !important
+        small
+          font-size: 1.25em !important
+        .btn-wrapper
+          .main-explore-btn
+            font-size: 1.5em
+            padding: 5px 45px
+@media screen and (max-width: 468px)
+  .btn-wrapper
+    margin-top: 25px !important
+@media screen and (max-width: 375px)
+  .home-top-container
+    .container
+      margin-top: -5%

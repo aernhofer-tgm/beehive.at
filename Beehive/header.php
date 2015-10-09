@@ -10,12 +10,13 @@
   <link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/footer.css">
   <link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/startseite.css">
 
+
   <script src="/wp-content/themes/Beehive/external/jquery/jquery.js"></script>
   <script src="/wp-content/themes/Beehive/external/bootstrap/js/bootstrap.js"></script>
 
   <!--pagePiling jquery scrolling plugin-->
-  <script type="text/javascript" src="/wp-content/themes/Beehive/external/pagepiling/jquery.pagepiling.min.js"></script>
-  <script type="text/javascript" src="/wp-content/themes/Beehive/scripts/scrolljacking_pagepiling.js"></script>
+  <!-- <script type="text/javascript" src="/wp-content/themes/Beehive/external/pagepiling/jquery.pagepiling.min.js"></script>
+  <script type="text/javascript" src="/wp-content/themes/Beehive/scripts/scrolljacking_pagepiling.js"></script> -->
 
 </head>
 
