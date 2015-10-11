@@ -1,0 +1,100 @@
+.clearfix {
+  zoom: 1;
+  display: block !important; }
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
+.page-wrapper {
+  height: 100%; }
+
+.top-page-container {
+  width: 100%;
+  height: 300px; }
+  .top-page-container .top-page-container-inner {
+    position: relative; }
+    .top-page-container .top-page-container-inner .background-layer {
+      background: url("../images/letter_love.jpg") no-repeat center center;
+      background-size: cover;
+      height: 300px; }
+      .top-page-container .top-page-container-inner .background-layer .top-layer {
+        height: 300px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        display: table;
+        clear: both; }
+        .top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content {
+          display: table-cell !important;
+          vertical-align: middle;
+          text-align: center;
+          position: relative; }
+          .top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content h1 {
+            color: white;
+            font-size: 1.75em;
+            font-family: "Open Sans", sans-serif;
+            font-weight: bold;
+            letter-spacing: 0.5px; }
+          .top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content small {
+            display: none;
+            color: white; }
+
+.bla {
+  display: none; }
+
+.feedback-wrapper {
+  z-index: 2;
+  position: relative;
+  padding: 20px 0px; }
+
+@media screen and (max-width: 768px) {
+  .feedback-inner {
+    padding-left: 40px !important; }
+
+  .bla {
+    display: block;
+    text-align: center; }
+
+  .special {
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    font-size: 1.5em;
+    position: relative;
+    padding: 50px 0px 90px; } }
+@media screen and (max-width: 768px) {
+  .feedback-inner {
+    padding: 0px 40px 0px 0px; }
+
+  .more-info {
+    display: none; }
+    .more-info.openLegs {
+      display: block !important; } }
+@media screen and (min-width: 768px) {
+  .page-wrapper {
+    height: 100%; }
+
+  .moremore-info {
+    display: none; } }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .feedback-inner {
+    padding: 0px 15px 0px 25px; } }
+@media screen and (min-width: 992px) {
+  .feedback-inner {
+    padding: 0px 40px 0px 0px; } }
+.moremore-info {
+  height: 35px;
+  background-color: lightgray; }
+  .moremore-info .fa {
+    float: right;
+    margin-right: 40px;
+    line-height: 1;
+    font-size: 25px;
+    padding: 5px 0px; }
+
+.plus.rotateLegs {
+  -webkit-transform: rotate(45deg) !important;
+  transform: rotate(45deg) !important; }

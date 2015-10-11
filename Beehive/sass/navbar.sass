@@ -30,8 +30,6 @@ $line-hight: 3
   -moz-webkit-box-sizing: border-box
   box-sizing: border-box
 @mixin body
-  -webkit-backface-visibility: hidden
-  backface-visibility: hidden
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   text-rendering: optimizeLegibility
@@ -49,11 +47,7 @@ html, body
 
 body
   @include body
-  font-family: $robo-font
-  -webkit-transform-style: preserve-3d
-  backface-visibility: hidden
-  text-rendering: optimizeLegibility
-  -webkit-backface-visibility: hidden
+  font-family: sans-serif !important
   background: white none repeat scroll 0% 0%
 
 ul,li
@@ -126,11 +120,13 @@ hr.lines
           @include animAll300
           white-space: nowrap
           height: $navbar-height
+          font-family: sans-serif
           &:hover
             opacity: 0.7
           .logo
             max-height: 20px
             @include animAll300Del
+            vertical-align: middle !important
 @media screen and (max-width: 768px)
   body
     &.nav-open

@@ -3,54 +3,61 @@
   <div class="container">
     <div class="row">
       <div class="outer">
-        <div class="inner">
-          <h1>HALLO</h1>
-          <small>hallo hallo hallo hallo hallo hallo hallo</small><br />
+        <div class="inner-startseite">
+          <h1>Beehive Management</h1>
+          <small>Rettet die Bienen! Rettet die Welt!</small><br />
           <div class="btn-wrapper">
-            <a class="main-explore-btn">Hallo</a>
+            <a href="?page=projektbeschreibung" class="main-explore-btn">Erforschen</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<?php do_action('slideshow_deploy','38');?>
+<div class="slideshow-abdunkeln">
+  <?php do_action('slideshow_deploy','38');?>
+</div>
 <?php wp_footer(); ?>
 
-<div class="startseite-wrapper">
-  <div class="kleine-container col-md-3 col-sm-6 col-xs-12 projektbeschreibung">
-    <div class="top-layer">
-      <div class="inner-content">
-        <h3>Über unser Projekt</h3>
-        <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-        <a class="explore-btn" href="#">Explore</a>
+<div class="startseite-wrapper container">
+  <div class="row">
+    <div class="kleine-container col-md-3 col-sm-6 col-xs-12 projektbeschreibung">
+      <div class="top-layer">
+        <div class="inner-content">
+          <h3>Über unser Projekt</h3>
+          <p>Erfahre mehr über unser Projekt unter anderem wieso und wie wir es realisieren.</p>
+          <a class="explore-btn" href="?page=projektbeschreibung">Erforschen</a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="kleine-container col-md-3 col-sm-6 col-xs-12 team">
-    <div class="top-layer">
-      <div class="inner-content">
-        <h3>Wer war beteiligt</h3>
-        <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-        <a class="explore-btn" href="#">Explore</a>
+    <div class="kleine-container col-md-3 col-sm-6 col-xs-12 team">
+      <div class="top-layer">
+        <div class="inner-content">
+          <h3>Wer ist beteiligt?</h3>
+          <p>Lerne uns kennen und unsere Zuständigkeiten.</p>
+          <a class="explore-btn" href="?page=team">Erforschen</a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="kleine-container col-md-3 col-sm-6 col-xs-12 fortschritt">
-    <div class="top-layer">
-      <div class="inner-content">
-        <h3>Fortschritt</h3>
-        <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-        <a class="explore-btn" href="#">Explore</a>
+    <div class="kleine-container col-md-3 col-sm-6 col-xs-12 fortschritt">
+      <div class="top-layer">
+        <div class="inner-content">
+          <h3>Fortschritt</h3>
+          <p>Willst du wissen wie weit wir schon sind? Folge uns!</p>
+          <a class="explore-btn" href="?page=ergebnisse">Erforschen</a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="kleine-container col-md-3 col-sm-6 col-xs-12 feedback">
-    <div class="top-layer">
-      <div class="inner-content">
-        <h3>Gib uns ein Feedback</h3>
-        <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-        <a class="explore-btn" href="#">Explore</a>
+    <div class="kleine-container col-md-3 col-sm-6 col-xs-12 feedback">
+      <div class="something">
+
+      </div>
+      <div class="top-layer">
+        <div class="inner-content">
+          <h3>Gib uns ein Feedback!</h3>
+          <p>Hast du noch offene Fragen, Kritik oder Ideen. Lass es uns wissen!</p>
+          <a class="explore-btn" href="?page=feedback">Explore</a>
+        </div>
       </div>
     </div>
   </div>
