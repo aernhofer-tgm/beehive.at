@@ -13,12 +13,11 @@ $topContHeight: 300px
     display: table
   &:after
     clear: both
-@media screen and (min-width: 768px)
-  .page-wrapper
-    height: 100%
 .top-page-container
   width: 100%
   height: $topContHeight
+  position: fixed
+  top: $navheight
   .top-page-container-inner
     position: relative
     .background-layer
@@ -31,6 +30,7 @@ $topContHeight: 300px
         background: rgba(0, 0, 0, 0.8)
         display: table
         clear: both
+        margin-top: -$navheight
         .top-page-container-inner-content
           display: table-cell !important
           vertical-align: middle
@@ -45,45 +45,90 @@ $topContHeight: 300px
           small
             display: none
             color: white
+.main-container
+  margin-top: $topContHeight
+  z-index: 2
+  background: white
+  position: relative
+  .container-inner-content
+    position: relative
+    .main-inner-content
+      .main-inner-content-fixed
+        clear: both
+        background: white
+.top-stripe
+  .row
+    .outer
+      display: table
+      height: 250px
+      width: 100%
+      position: relative
+      .inner
+        display: table-cell
+        vertical-align: middle
+        .first-article
+          text-align: left
+          font-family: 'Open Sans', sans-serif !important
+          h2
+            font-size: 1.75em
+            font-weight: bold
+            margin-bottom: 15px
+          p
+            font-size: 1.125em
+.big-team-container
+  background: url('../images/piorch.png') no-repeat center center
+  background-attachment: fixed
+  background-size: cover
+  position: relative
+  .top-layer-ng
+    height: 100%
+    width: 100%
+    color: white
+    background: rgba(0, 0, 0, 0.6)
 .team-wrapper
   z-index: 2
   position: relative
 .member-wrapper
   width: 80%
+  margin-left: auto
+  margin-right: auto
   .outer
     display: table
     height: 300px
     width: 100%
     position: relative
-    border-right: 1px solid #ddd
-    border-left: 1px solid #ddd
-    border-top: 1px solid #ddd
-    padding-top: 40px
-    .inner
-      display: table-cell
-      vertical-align: middle
-      .panel-body
-        text-align: center
-        h3
-          margin: 0px 0px 2px 0px
-          font-size: 1.25em
-        small
-          font-size: 0.9em
-        p
-          padding-top: 1em
+    border-right: 1px solid white
+    border-left: 1px solid white
+    border-top: 1px solid white
+    padding-top: 80px
+    background-color: rgba(15, 15, 15, 0.95)
+    .panel-body
+      text-align: center
+      color: white
+      h3
+        margin: 0px 0px 2px 0px
+        font-size: 1.25em
+      small
+        font-size: 0.9em
+        color: rgb(169, 169, 226)
+      p
+        padding-top: 1em
+  .panel-footer
+    background: rgba(15,15,15,0.85)
 .fa
+  color: white
   font-size: 1.25em !important
-  color: rgb(25,25,25)
   @include animAll300
 .fa-facebook
   &:hover
-    color: rgb(14, 31, 91)
+    color: #074CB3
 .fa-envelope-o
   float: right !important
   &:hover
-    color: rgb(147, 43, 29)
+    color: #FF4C34
 .panel
   border: none
+  background-color: transparent !important
 .panel-heading
   height: 170px
   text-align: center
@@ -113,8 +158,23 @@ $topContHeight: 300px
   .member-wrapper
     width: 60%
     margin: 0 auto
-@media screen and (min-width: 768px) and (max-width: 992px)
+@media screen and (min-width: 768px) and (max-width: 1180px)
   .container
     width: auto
   .member-wrapper
     width: 100%
+@media screen and (max-width: 525px)
+  .member-wrapper
+    width: 80%
+@media screen and (max-width: 480px)
+  .member-wrapper
+    width: 90%
+@media screen and (max-width: 340px)
+  .member-wrapper
+    .panel-body:last-of-type
+      padding-top: 50px
+      .last
+        word-break: break-word
+@media screen and (min-width: 770px)
+  .member-wrapper
+    padding-bottom: 80px

@@ -1,0 +1,48 @@
+$navheight: 44px
+$topContHeight: 300px
+.clearfix
+  zoom: 1
+  display: block !important
+  &:before,
+  &:after
+    content: ""
+    display: table
+  &:after
+    clear: both
+.top-page-container
+  position: fixed
+  width: 100%
+  top: $navheight
+  height: $topContHeight
+  .top-page-container-inner
+    position: relative
+    .background-layer
+      background: url('../images/o-TECHNOLOGY-facebook.jpg') no-repeat top right
+      background-size: cover
+      height: $topContHeight
+      .top-layer
+        height: $topContHeight
+        width: 100%
+        background: rgba(0, 0, 0, 0.8)
+        display: table
+        clear: both
+        margin-top: -$navheight
+        .top-page-container-inner-content
+          display: table-cell !important
+          vertical-align: middle
+          text-align: center
+          position: relative
+          h1
+            color: white
+            font-size: 1.75em
+            font-family: 'Open Sans', sans-serif
+            font-weight: bold
+            letter-spacing: 0.5px
+            margin-bottom: 20px
+.big-container
+  width: 100%
+  background: white
+  z-index: 5
+  margin-top: $topContHeight
+  height: 100%
+  position: relative
