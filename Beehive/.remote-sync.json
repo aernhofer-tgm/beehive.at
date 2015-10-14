@@ -6,7 +6,8 @@
   "password": "UazfAu8U",
   "target": "/htdocs/wp-content/themes/Beehive",
   "ignore": [
-    ".git/**"
+    "*.jpg",
+    "*.png"
   ],
   "uploadOnSave": true
 }
