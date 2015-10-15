@@ -5,7 +5,7 @@
         <div class="background-layer">
             <div class="top-layer">
                 <div class="top-page-container-inner-content">
-                    <h1>Projektbeschreibung</h1>
+                    <h1>Beschreibung</h1>
                     <small>Some more cool hipster text cause why not ?</small>
                 </div>
             </div>

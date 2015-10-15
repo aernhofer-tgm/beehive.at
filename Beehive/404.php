@@ -33,6 +33,8 @@
           <hr class="lines" />
           <li class="nav-items"><a href="../?page=feedback">Feedback</a></li>
           <hr class="lines" />
+          <li class="nav-items"><a href="../?page=partner">Partner</a></li>
+          <hr class="lines" />
         </ul>
       </div>
   </nav>

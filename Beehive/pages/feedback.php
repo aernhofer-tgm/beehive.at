@@ -17,15 +17,15 @@
   <div class="container feedback-wrapper">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 feedback-inner" style="border-right: 1px solid #dfdfdf;">
-        <form>
+        <form method="post" action="?page=feedback">
           <fieldset>
             <legend>Gib uns ein Feedback!</legend>
             <label class="form-label">Name</label>
             <input type="text" class="form-control">
             <label class="form-label">Email Adresse</label>
-            <input type="text" class="form-control">
+            <input type="text" name="absenderEmail" class="form-control">
             <label class="form-label">Nachricht</label>
-            <textarea class="form-control" rows="10"></textarea>
+            <textarea class="form-control" rows="7" style="resize:none"></textarea>
             <br>
             <input type="submit" class="btn pull-right btn-success" value="Senden">
             <input type="reset" class="btn pull-left btn-default" value="Felder L&ouml;schen">
@@ -53,6 +53,67 @@
     </div>
   </div>
 </div>
-<script src="/wp-content/themes/Beehive/scripts/unnedigerDu.js">
+<script src="/wp-content/themes/Beehive/scripts/unnedigerDu.js"></script>
+<script src="/wp-content/themes/Beehive/scripts/mail_ueberpruefung.js" type="text/javascript"></script>
+<style>
+  .modal {
+  text-align: center;
+  }
 
-</script>
+  @media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+  }
+
+  .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  }
+</style>
+
+<!-- Fehler Modal -->
+  <div class="modal fade" id="fModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Fehler :(</h4>
+        </div>
+        <div class="modal-body">
+          <p>Ihre email Addresse ist ungültig!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Erfolgreich Modal -->
+  <div class="modal fade" id="eModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Erfolgreich</h4>
+        </div>
+        <div class="modal-body">
+          <p>Danke</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>

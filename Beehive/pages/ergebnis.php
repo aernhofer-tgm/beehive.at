@@ -4,7 +4,7 @@
     <div class="background-layer">
       <div class="top-layer">
         <div class="top-page-container-inner-content">
-          <h1>Blogs</h1>
+          <h1>Ereignis</h1>
         </div>
       </div>
     </div>

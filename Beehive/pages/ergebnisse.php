@@ -10,7 +10,7 @@
 		<div class="background-layer">
 			<div class="top-layer">
 				<div class="top-page-container-inner-content">
-					<h1>Projektfortschritt</h1>
+					<h1>Fortschritt</h1>
 						<div class="progress">
 							<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 49.999999999%">
 								<span class="sr-only">50%</span>

@@ -8,13 +8,15 @@
         <li class="nav-items first"><a style="cursor:default;"><img class="logo" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo.png" /></a></li>
         <li class="nav-items"><a href="?page=startseite">Startseite</a></li>
         <hr class="lines" />
-        <li class="nav-items"><a href="?page=projektbeschreibung">Projektbeschreibung</a></li>
+        <li class="nav-items"><a href="?page=projektbeschreibung">Beschreibung</a></li>
         <hr class="lines" />
         <li class="nav-items"><a href="?page=team">Team</a></li>
         <hr class="lines" />
-        <li class="nav-items"><a href="?page=ergebnisse">Ergebnisse</a></li>
+        <li class="nav-items"><a href="?page=ergebnisse">Fortschritt</a></li>
         <hr class="lines" />
         <li class="nav-items"><a href="?page=feedback">Feedback</a></li>
+        <hr class="lines" />
+        <li class="nav-items"><a href="?page=partner">Partner</a></li>
         <hr class="lines" />
       </ul>
     </div>
