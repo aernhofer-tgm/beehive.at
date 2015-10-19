@@ -6,9 +6,9 @@ $("form").submit(function(){
   var valid = true;//Variable ob alles Korrekt ist
 
   //Ueberpruefen der eingegebene email Adresse
-  if (emailAddress != ""){
+  if (emailAddress !== ""){
     var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
-    var validemail = pattern.test(emailAddress);
+    validemail = pattern.test(emailAddress);
   }
   //Speichern des Fehlers in die Ausgabe und das absenden verhindern
   if(!validemail){
@@ -17,7 +17,7 @@ $("form").submit(function(){
     $('#fModal').modal('show');
   }else {
     //Modal für erfolgreich aufrufen
-    $('#eModal').modal('show');
+    //$('#eModal').modal('show');
   }
 
   //Ausgeben des/der Fehler(s)

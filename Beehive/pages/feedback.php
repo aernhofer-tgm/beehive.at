@@ -17,15 +17,15 @@
   <div class="container feedback-wrapper">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 feedback-inner" style="border-right: 1px solid #dfdfdf;">
-        <form method="post" action="?page=feedback">
+        <form method="post" action="/wp-content/themes/Beehive/action/mail_senden.php">
           <fieldset>
             <legend>Gib uns ein Feedback!</legend>
             <label class="form-label">Name</label>
-            <input type="text" class="form-control">
+            <input type="text" name="nameAbsender" class="form-control">
             <label class="form-label">Email Adresse</label>
             <input type="text" name="absenderEmail" class="form-control">
             <label class="form-label">Nachricht</label>
-            <textarea class="form-control" rows="7" style="resize:none"></textarea>
+            <textarea class="form-control" name="nachricht" rows="7" style="resize:none"></textarea>
             <br>
             <input type="submit" class="btn pull-right btn-success" value="Senden">
             <input type="reset" class="btn pull-left btn-default" value="Felder L&ouml;schen">
@@ -105,7 +105,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Erfolgreich</h4>
+          <h4 class="modal-title">Erfolgreich :)</h4>
         </div>
         <div class="modal-body">
           <p>Danke für dein Feedback</p>
@@ -117,3 +117,43 @@
 
     </div>
   </div>
+
+  <!-- Erfolgreich Modal -->
+  <div class="modal fade" id="iwasModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Fehler :(</h4>
+        </div>
+        <div class="modal-body">
+          <p>Irgendetwas ist schief gelaufen ... Bitte versuchen Sie es später erneut.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <?php
+  echo $_SESSION['erfolgreich'];
+
+  if($_SESSION['erfolgreich']!="")
+  {
+    if($_SESSION['erfolgreich']){
+      echo "
+      <script> $('#eModal').modal('show'); </script>
+      ";
+    }
+    else {
+      echo "
+      <script> $('#iwasModal').modal('show'); </script>
+      ";
+    }
+  }
+   unset($_SESSION['erfolgreich']);
+  ?>

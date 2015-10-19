@@ -1,2 +1,134 @@
-.clearfix{zoom:1;display:block !important}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.top-page-container{position:fixed;width:100%;top:44px;height:300px}.top-page-container .top-page-container-inner{position:relative}.top-page-container .top-page-container-inner .background-layer{background:url("../images/o-TECHNOLOGY-facebook.jpg") no-repeat top right;background-size:cover;height:300px}.top-page-container .top-page-container-inner .background-layer .top-layer{height:300px;width:100%;background:rgba(0,0,0,0.8);display:table;clear:both;margin-top:-44px}.top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content{display:table-cell !important;vertical-align:middle;text-align:center;position:relative}.top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content h1{color:#fff;font-size:1.75em;font-family:"Open Sans",sans-serif;font-weight:bold;letter-spacing:0.5px}.top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content small{display:none;color:#fff}.main-container{margin-top:300px;z-index:2;background:#fff;position:relative}.main-container .container-inner-content{position:relative}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed{clear:both;background:#fff}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer{display:table;height:250px;width:100%;position:relative}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer .inner{display:table-cell;vertical-align:middle}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer .inner .first-article{text-align:left;font-family:"Open Sans",sans-serif !important}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer .inner .first-article h2{font-size:1.75em;font-weight:bold;margin-bottom:15px}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer .inner .first-article p{font-size:1.125em}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code{background:url("../images/settings_Background.png") no-repeat center center;background-attachment:fixed;background-size:cover;position:relative}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article{text-align:center}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article .article-section{padding:2em 3em;font-family:"Open Sans",sans-serif !important}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article .article-section h2{font-size:2em;font-weight:bold;margin-bottom:15px}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article .article-section .p-top{margin-bottom:50px}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article .article-section p{font-size:1.175em}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc{background:url("../images/piorch.png") no-repeat center center;background-attachment:fixed;background-size:cover;position:relative}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article{text-align:center}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article .article-section{padding:2em 3em;font-family:"Open Sans",sans-serif !important}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article .article-section h2{font-size:2em;font-weight:bold;margin-bottom:15px}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article .article-section .p-top{margin-bottom:50px}.main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article .article-section p{font-size:1.175em}@media screen and (max-width: 768px){.top-page-container{position:static}.top-page-container .web-dev-code{background-attachment:initial}.top-page-container .abc{background-attachment:initial}.main-container{margin-top:0px}.outer{padding:40px 0px;height:auto}.web-dev-code{background:url("../images/settings_Background.png") no-repeat top center !important;background-size:cover}.abc{background:url("../images/piorch.png") no-repeat top center !important;background-size:cover}}.top-layer-nd{padding:8% 0%;height:100%;width:100%;color:#fff;background:rgba(0,0,0,0.8)}
-/*# sourceMappingURL=projektbeschreibung.css.map */
+.clearfix {
+  zoom: 1;
+  display: block !important; }
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
+.top-page-container {
+  position: fixed;
+  width: 100%;
+  top: 44px;
+  height: 300px; }
+  .top-page-container .top-page-container-inner {
+    position: relative; }
+    .top-page-container .top-page-container-inner .background-layer {
+      background: url("/wp-content/uploads/config/tastatur_zoom.jpg") no-repeat center center;
+      background-size: cover;
+      height: 300px; }
+      .top-page-container .top-page-container-inner .background-layer .top-layer {
+        height: 300px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        display: table;
+        clear: both;
+        margin-top: -44px; }
+        .top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content {
+          display: table-cell !important;
+          vertical-align: middle;
+          text-align: center;
+          position: relative; }
+          .top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content h1 {
+            color: white;
+            font-size: 1.75em;
+            font-family: "Open Sans", sans-serif;
+            font-weight: bold;
+            letter-spacing: 0.5px; }
+          .top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content small {
+            display: none;
+            color: white; }
+
+.main-container {
+  margin-top: 300px;
+  z-index: 2;
+  background: white;
+  position: relative; }
+  .main-container .container-inner-content {
+    position: relative; }
+    .main-container .container-inner-content .main-inner-content .main-inner-content-fixed {
+      clear: both;
+      background: white; }
+      .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer {
+        display: table;
+        height: 250px;
+        width: 100%;
+        position: relative; }
+        .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer .inner {
+          display: table-cell;
+          vertical-align: middle; }
+          .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer .inner .first-article {
+            text-align: left;
+            font-family: "Open Sans", sans-serif !important; }
+            .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer .inner .first-article h2 {
+              font-size: 1.75em;
+              font-weight: bold;
+              margin-bottom: 15px; }
+            .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .container .row .outer .inner .first-article p {
+              font-size: 1.125em; }
+      .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code {
+        background: url("../images/settings_Background.png") no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative; }
+        .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article {
+          text-align: center; }
+          .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article .article-section {
+            padding: 2em 3em;
+            font-family: "Open Sans", sans-serif !important; }
+            .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article .article-section h2 {
+              font-size: 2em;
+              font-weight: bold;
+              margin-bottom: 15px; }
+            .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article .article-section .p-top {
+              margin-bottom: 50px; }
+            .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article .article-section p {
+              font-size: 1.175em; }
+      .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc {
+        background: url("/wp-content/uploads/config/piorch.jpg") no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative; }
+        .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article {
+          text-align: center; }
+          .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article .article-section {
+            padding: 2em 3em;
+            font-family: "Open Sans", sans-serif !important; }
+            .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article .article-section h2 {
+              font-size: 2em;
+              font-weight: bold;
+              margin-bottom: 15px; }
+            .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article .article-section .p-top {
+              margin-bottom: 50px; }
+            .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc .article .article-section p {
+              font-size: 1.175em; }
+
+@media screen and (max-width: 768px) {
+  .top-page-container {
+    position: static; }
+    .top-page-container .web-dev-code {
+      background-attachment: initial; }
+    .top-page-container .abc {
+      background-attachment: initial; }
+
+  .main-container {
+    margin-top: 0px; }
+
+  .outer {
+    padding: 40px 0px;
+    height: auto; }
+
+  .web-dev-code {
+    background: url("../images/settings_Background.png") no-repeat top center !important;
+    background-size: cover; }
+
+  .abc {
+    background: url("../images/piorch.png") no-repeat top center !important;
+    background-size: cover; } }
+.top-layer-nd {
+  padding: 8% 0%;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.8); }
