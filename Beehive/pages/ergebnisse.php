@@ -45,7 +45,6 @@
 		<div class="cd-timeline-content">
 			<h2>Genehmigung vom Landesschulinspektor</h2>
 			<p>Das Projekt wurde genehmigt und jetzt können wir voll durchstarten :)</p>
-			<a href="?page=ergebnis" class="cd-read-more">Read more</a>
 			<span class="cd-date">13 Okt</span>
 		</div> <!-- cd-timeline-content -->
 	</div> <!-- cd-timeline-block -->
@@ -101,7 +100,7 @@
 		<div class="cd-timeline-content">
 			<h2>Lastenheft fertiggestellt</h2>
 			<p>Das Lastenheft beschreibt die Gesamtheit der Anforderungen des Auftraggebers an die Leistgen und Lieferungen des Auftragnehmers.</p>
-			<a href="?page=ergebnis" class="cd-read-more">Download</a>
+			<a href="/wp-content/themes/Beehive/action/download.php?document=BeehiveManagementLastenheft.pdf" class="cd-read-more">Download</a>
 			<span class="cd-date">10 Sep</span>
 		</div> <!-- cd-timeline-content -->
 	</div> <!-- cd-timeline-block -->

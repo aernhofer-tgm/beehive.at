@@ -24,8 +24,9 @@
                                     <div class="first-article">
                                         <div class="col-xs-12">
                                             <h2>Wer sind wir?</h2>
+                                            <img style="width:150px;float:left;margin-right:30px;" src="/wp-content/themes/Beehive/images/logo/TGM_Logo_solo.png" />
                                             <p>
-                                               Wir sind die 3 Muskeltiere!
+                                               Wir sind Schüler des TGMs 1220, Wien und besuchen die Informationstechnologische Abteilung. Wir gehen in die selbe Klasse und haben uns Beehive Management als unser Diplomprojekt vorgenommen. Falls Sie uns besser kennenlernen wollen oder uns persönlich kontaktieren wollen, sind wir per Facebook oder Email zu erreichen. :)
                                             </p>
                                         </div>
                                     </div>
@@ -51,7 +52,7 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="panel-footer"><a href=""><i class="fa fa-facebook"></i></a><a href="../?page=feedback"><i class="fa fa-envelope-o"></i></a></div>
+                                            <div class="panel-footer"><a href="https://www.facebook.com/jakub.adam.kopec"><i class="fa fa-facebook"></i></a><a href="mailto:jkopec@student.tgm.ac.at?Subject=Beehive%20Management"><i class="fa fa-envelope-o"></i></a></div>
                                         </div>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
@@ -68,7 +69,7 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="panel-footer"><a href=""><i class="fa fa-facebook"></i></a><a href="../?page=feedback"><i class="fa fa-envelope-o"></i></a></div>
+                                            <div class="panel-footer"><a href="https://www.facebook.com/andi.erni.1671"><i class="fa fa-facebook"></i></a><a href="mailto:aernhofer@student.tgm.ac.at?Subject=Beehive%20Management"><i class="fa fa-envelope-o"></i></a></div>
                                         </div>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
@@ -85,7 +86,7 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="panel-footer"><a href=""><i class="fa fa-facebook"></i></a><a href="../?page=feedback"><i class="fa fa-envelope-o"></i></a></div>
+                                            <div class="panel-footer"><a href="https://www.facebook.com/manuel.reilander"><i class="fa fa-facebook"></i></a><a href="mailto:mreilaender@student.tgm.ac.at?Subject=Beehive%20Management"><i class="fa fa-envelope-o"></i></a></div>
                                         </div>
                                     </div>
                                 </div>
