@@ -23,9 +23,9 @@
                                 <div class="inner">
                                     <div class="first-article">
                                         <div class="col-xs-12">
-                                            <h2>Piorch - einmal geht</h2>
+                                            <h2>Wer sind wir?</h2>
                                             <p>
-                                                Hi. You just got hacked D:
+                                               Wir sind die 3 Muskeltiere!
                                             </p>
                                         </div>
                                     </div>
@@ -51,7 +51,7 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="panel-footer"><a href=""><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-envelope-o"></i></a></div>
+                                            <div class="panel-footer"><a href=""><i class="fa fa-facebook"></i></a><a href="../?page=feedback"><i class="fa fa-envelope-o"></i></a></div>
                                         </div>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
@@ -68,7 +68,7 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="panel-footer"><a href=""><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-envelope-o"></i></a></div>
+                                            <div class="panel-footer"><a href=""><i class="fa fa-facebook"></i></a><a href="../?page=feedback"><i class="fa fa-envelope-o"></i></a></div>
                                         </div>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
@@ -79,20 +79,20 @@
                                             <div class="outer">
                                                 <div class="panel-body">
                                                     <h3>Manuel Reiländer</h3>
-                                                    <small>Teammember</small>
+                                                    <small>Teammitglied</small>
                                                     <p class="last">
                                                         Konzeption und Implementierung der Schnittstelle/Kommunikationsprotokolle zwischen Mikrocontroller und Server unter besonderer Rücksichtnahme der Energieeffizienz.
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="panel-footer"><a href=""><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-envelope-o"></i></a></div>
+                                            <div class="panel-footer"><a href=""><i class="fa fa-facebook"></i></a><a href="../?page=feedback"><i class="fa fa-envelope-o"></i></a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container top-stripe">
+                    <!--<div class="container top-stripe">
                         <div class="row">
                             <div class="outer">
                                 <div class="inner">
@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>

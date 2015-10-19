@@ -25,7 +25,7 @@
       <div class="top-layer">
         <div class="inner-content">
           <h3>Über unser Projekt</h3>
-          <p>Erfahre mehr über unser Projekt unter anderem wieso und wie wir es realisieren.</p>
+          <p>Erfahre mehr über unser Projekt.</p>
           <a class="explore-btn" href="?page=projektbeschreibung">Erforschen</a>
         </div>
       </div>
@@ -34,7 +34,7 @@
       <div class="top-layer">
         <div class="inner-content">
           <h3>Wer ist beteiligt?</h3>
-          <p>Lerne uns kennen und unsere Zuständigkeiten.</p>
+          <p>Lerne uns und unsere Zuständigkeiten kennen.</p>
           <a class="explore-btn" href="?page=team">Erforschen</a>
         </div>
       </div>
@@ -56,7 +56,7 @@
         <div class="inner-content">
           <h3>Gib uns ein Feedback!</h3>
           <p>Hast du noch offene Fragen, Kritik oder Ideen. Lass es uns wissen!</p>
-          <a class="explore-btn" href="?page=feedback">Explore</a>
+          <a class="explore-btn" href="?page=feedback">Erforschen</a>
         </div>
       </div>
     </div>

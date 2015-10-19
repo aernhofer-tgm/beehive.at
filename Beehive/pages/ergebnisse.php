@@ -12,8 +12,8 @@
 				<div class="top-page-container-inner-content">
 					<h1>Fortschritt</h1>
 						<div class="progress">
-							<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 49.999999999%">
-								<span class="sr-only">50%</span>
+							<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+								<span class="sr-only">20%</span>
 							</div>
 						</div>
 				</div>
@@ -29,23 +29,11 @@
 		</div> <!-- cd-timeline-img -->
 
 		<div class="cd-timeline-content">
-			<h2>Beispiel für ein neu gemachtes Foto</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+			<h2>Waage "zerstören" :D</h2>
+			<img src="/wp-content/uploads/config/waage_miniatur.jpg" style="width:150px; float:left; margin:10px 10px 0px 0px; border-radius:5px;"></img>
+			<p>Haute haben wir eine Waage zerlegt. Das Ziel dabei war es, die Werte anstatt am Bildschirm der Waage anzuzeigen, direkt auf den Laptop zu schicken.</p>
 			<a href="?page=ergebnis" class="cd-read-more">Read more</a>
-			<span class="cd-date">Jan 14</span>
-		</div> <!-- cd-timeline-content -->
-	</div> <!-- cd-timeline-block -->
-
-	<div class="cd-timeline-block">
-		<div class="cd-timeline-img cd-movie">
-			<img src="/wp-content/themes/Beehive/images/document112.svg" alt="Document">
-		</div> <!-- cd-timeline-img -->
-
-		<div class="cd-timeline-content">
-			<h2>Beispiel für ein neu gemachtes Dokument</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-			<a href="?page=ergebnis" class="cd-read-more">Download</a>
-			<span class="cd-date">Jan 18</span>
+			<span class="cd-date">14 Okt</span>
 		</div> <!-- cd-timeline-content -->
 	</div> <!-- cd-timeline-block -->
 
@@ -55,10 +43,10 @@
 		</div> <!-- cd-timeline-img -->
 
 		<div class="cd-timeline-content">
-			<h2>Beispiel für eine abgeschlossene Aufgabe</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+			<h2>Genehmigung vom Landesschulinspektor</h2>
+			<p>Das Projekt wurde genehmigt und jetzt können wir voll durchstarten :)</p>
 			<a href="?page=ergebnis" class="cd-read-more">Read more</a>
-			<span class="cd-date">Jan 24</span>
+			<span class="cd-date">13 Okt</span>
 		</div> <!-- cd-timeline-content -->
 	</div> <!-- cd-timeline-block -->
 
@@ -68,10 +56,11 @@
 		</div> <!-- cd-timeline-img -->
 
 		<div class="cd-timeline-content">
-			<h2>Beispiel für eine besuchte Veranstaltung</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+			<h2>Besuch des Jungunternehmertags 2015</h2>
+			<img src="/wp-content/uploads/config/jungunternehmertag_miniatur.jpg" style="width:150px; float:left; margin:10px 10px 0px 0px; border-radius:5px;"></img>
+			<p> Am Dienstag den 13.10.2015 haben wir den Jungunternehmertag in der Messe Wien besucht.</p>
 			<a href="?page=ergebnis" class="cd-read-more">Read more</a>
-			<span class="cd-date">Feb 14</span>
+			<span class="cd-date">13 Okt</span>
 		</div> <!-- cd-timeline-content -->
 	</div> <!-- cd-timeline-block -->
 
@@ -80,23 +69,40 @@
 			<img src="/wp-content/themes/Beehive/images/cd-icon-location.svg" alt="Location">
 		</div> <!-- cd-timeline-img -->
 
+		<!--
 		<div class="cd-timeline-content">
 			<h2>Beispiel für eine besuchte Veranstaltung</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
 			<a href="?page=ergebnis" class="cd-read-more">Read more</a>
 			<span class="cd-date">Feb 18</span>
-		</div> <!-- cd-timeline-content -->
-	</div> <!-- cd-timeline-block -->
+		</div> <!-- cd-timeline-content ->
+	</div> <!-- cd-timeline-block ->
+	-->
 
+	<!--
 	<div class="cd-timeline-block">
 		<div class="cd-timeline-img cd-movie">
 			<img src="/wp-content/themes/Beehive/images/cd-icon-movie.svg" alt="Movie">
-		</div> <!-- cd-timeline-img -->
+		</div> <!-- cd-timeline-img ->
 
 		<div class="cd-timeline-content">
 			<h2>Beispiel für ein neu gemachtes Video</h2>
 			<p>This is the content of the last section</p>
 			<span class="cd-date">Feb 26</span>
+		</div> <!-- cd-timeline-content ->
+	</div> <!-- cd-timeline-block ->
+	-->
+
+	<div class="cd-timeline-block">
+		<div class="cd-timeline-img cd-movie">
+			<img src="/wp-content/themes/Beehive/images/document112.svg" alt="Document">
+		</div> <!-- cd-timeline-img -->
+
+		<div class="cd-timeline-content">
+			<h2>Lastenheft fertiggestellt</h2>
+			<p>Das Lastenheft beschreibt die Gesamtheit der Anforderungen des Auftraggebers an die Leistgen und Lieferungen des Auftragnehmers.</p>
+			<a href="?page=ergebnis" class="cd-read-more">Download</a>
+			<span class="cd-date">10 Sep</span>
 		</div> <!-- cd-timeline-content -->
 	</div> <!-- cd-timeline-block -->
 </section> <!-- cd-timeline -->

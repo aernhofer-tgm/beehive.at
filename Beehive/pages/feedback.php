@@ -108,7 +108,7 @@
           <h4 class="modal-title">Erfolgreich</h4>
         </div>
         <div class="modal-body">
-          <p>Danke</p>
+          <p>Danke für dein Feedback</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
