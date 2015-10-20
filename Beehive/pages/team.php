@@ -68,8 +68,8 @@
                                                         Sinvolles Interpretieren, Verarbeiten und Speichern der von den Sensoren ausgelesenen Daten.
                                                     </p>
                                                 </div>
-                                            </div>
-                                            <div class="panel-footer"><a href="https://www.facebook.com/andi.erni.1671"><i class="fa fa-facebook"></i></a><a href="mailto:aernhofer@student.tgm.ac.at?Subject=Beehive%20Management"><i class="fa fa-envelope-o"></i></a></div>
+                                            </div>                                                <!--/andi.erni.1671-->
+                                            <div class="panel-footer"><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a><a href="mailto:aernhofer@student.tgm.ac.at?Subject=Beehive%20Management"><i class="fa fa-envelope-o"></i></a></div>
                                         </div>
                                     </div>
                                     <div class="col-sm-4 col-md-4">

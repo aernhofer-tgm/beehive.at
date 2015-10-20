@@ -100,7 +100,7 @@
 		<div class="cd-timeline-content">
 			<h2>Lastenheft fertiggestellt</h2>
 			<p>Das Lastenheft beschreibt die Gesamtheit der Anforderungen des Auftraggebers an die Leistgen und Lieferungen des Auftragnehmers.</p>
-			<a href="/wp-content/uploads/documents/BeehiveManagementLastenheft.pdf" download="Erni_ist_der_Beste" class="cd-read-more">Download</a>
+			<a href="/wp-content/uploads/documents/BeehiveManagementLastenheft.pdf" download="BeehiveManagementLastenheft.pdf" class="cd-read-more">Download</a>
 			<span class="cd-date">10 Sep</span>
 		</div> <!-- cd-timeline-content -->
 	</div> <!-- cd-timeline-block -->
