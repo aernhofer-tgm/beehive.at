@@ -32,7 +32,7 @@
 			<h2>Waage "zerstören" :D</h2>
 			<img src="/wp-content/uploads/config/waage_miniatur.jpg" style="width:150px; float:left; margin:10px 10px 0px 0px; border-radius:5px;"></img>
 			<p>Haute haben wir eine Waage zerlegt. Das Ziel dabei war es, die Werte anstatt am Bildschirm der Waage anzuzeigen, direkt auf den Laptop zu schicken.</p>
-			<a href="?page=ergebnis" class="cd-read-more">Read more</a>
+			<a href="../waage-als-gewichtssensor/" class="cd-read-more">Read more</a>
 			<span class="cd-date">14 Okt</span>
 		</div> <!-- cd-timeline-content -->
 	</div> <!-- cd-timeline-block -->
@@ -58,7 +58,7 @@
 			<h2>Besuch des Jungunternehmertags 2015</h2>
 			<img src="/wp-content/uploads/config/jungunternehmertag_miniatur.jpg" style="width:150px; float:left; margin:10px 10px 0px 0px; border-radius:5px;"></img>
 			<p> Am Dienstag den 13.10.2015 haben wir den Jungunternehmertag in der Messe Wien besucht.</p>
-			<a href="?page=ergebnis" class="cd-read-more">Read more</a>
+			<a href="../jungunternehmertag-2015/" class="cd-read-more">Read more</a>
 			<span class="cd-date">13 Okt</span>
 		</div> <!-- cd-timeline-content -->
 	</div> <!-- cd-timeline-block -->

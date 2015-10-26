@@ -1,0 +1,139 @@
+$navheight: 44px
+$topContHeight: 300px
+.clearfix
+  zoom: 1
+  display: block !important
+  &:before,
+  &:after
+    content: ""
+    display: table
+  &:after
+    clear: both
+.top-page-container
+  position: fixed
+  width: 100%
+  top: $navheight
+  height: $topContHeight
+  .top-page-container-inner
+    position: relative
+    .background-layer
+      background: url('/wp-content/uploads/config/tastatur_zoom.jpg') no-repeat center center
+      background-size: cover
+      height: $topContHeight
+      .top-layer
+        height: $topContHeight
+        width: 100%
+        background: rgba(0, 0, 0, 0.8)
+        display: table
+        clear: both
+        margin-top: -$navheight
+        .top-page-container-inner-content
+          display: table-cell !important
+          vertical-align: middle
+          text-align: center
+          position: relative
+          h1
+            color: white
+            font-size: 1.75em
+            font-family: 'Open Sans', sans-serif
+            font-weight: bold
+            letter-spacing: 0.5px
+          small
+            display: none
+            color: white
+.main-container
+  margin-top: $topContHeight
+  z-index: 2
+  background: white
+  position: relative
+  .container-inner-content
+    position: relative
+    .main-inner-content
+      .main-inner-content-fixed
+        clear: both
+        background: white
+        .container
+          .row
+            .outer
+              display: table
+              height: 250px
+              width: 100%
+              position: relative
+              .inner
+                display: table-cell
+                vertical-align: middle
+                .first-article
+                  text-align: center
+                  font-family: 'Open Sans', sans-serif !important
+                  h2
+                    font-size: 1.75em
+                    font-weight: bold
+                    margin-bottom: 15px
+                  p
+                    font-size: 1.125em
+        .web-dev-code
+          background: url('../images/settings_Background.png') no-repeat center center
+          background-attachment: fixed
+          background-size: cover
+          position: relative
+          .article
+            text-align: center
+            .article-section
+              padding: 2em 3em
+              font-family: 'Open Sans', sans-serif !important
+              h2
+                font-size: 2em
+                font-weight: bold
+                margin-bottom: 15px
+              .p-top
+                margin-bottom: 50px
+              p
+                font-size: 1.175em
+        .abc
+          background: url('/wp-content/uploads/config/piorch.jpg') no-repeat center center
+          background-attachment: fixed
+          background-size: cover
+          position: relative
+          .article
+            text-align: center
+            .article-section
+              padding: 2em 3em
+              font-family: 'Open Sans', sans-serif !important
+              h2
+                font-size: 2em
+                font-weight: bold
+                margin-bottom: 15px
+              .p-top
+                margin-bottom: 50px
+              p
+                font-size: 1.175em
+@media screen and (max-width: 768px)
+  .top-page-container
+    position: static
+    .web-dev-code
+      background-attachment: initial
+    .abc
+      background-attachment: initial
+  .main-container
+    margin-top: 0px
+  .outer
+    padding: 40px 0px
+    height: auto
+  .web-dev-code
+    background: url('../images/settings_Background.png') no-repeat top center !important
+    background-size: cover
+  .abc
+    background: url('../images/piorch.png') no-repeat top center !important
+    background-size: cover
+.top-layer-nd
+  padding: 8% 0%
+  height: 100%
+  width: 100%
+  color: white
+  background: rgba(0, 0, 0, 0.8)
+.two
+  width: 150px
+.three
+  width: 225px
+.four
+  width: 350px

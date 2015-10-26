@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/startseite.css">
+
 <?php wp_head(); ?>
 <div class="home-top-container">
   <div class="container">

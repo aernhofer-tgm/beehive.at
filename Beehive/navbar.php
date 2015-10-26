@@ -16,6 +16,7 @@
         <hr class="lines" />
         <li class="nav-items"><a href="?page=feedback">Feedback</a></li>
         <hr class="lines" />
+        <!-- <li class="nav-items"><a href="?page=jenkins">Jenkins</a></li> -->
         <!--
         Auch in 404.php ändern!!!
 

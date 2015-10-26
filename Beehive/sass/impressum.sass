@@ -14,7 +14,6 @@ $topContHeight: 300px
   width: 100%
   top: $navheight
   height: $topContHeight
-  z-index: 9998
   .top-page-container-inner
     position: relative
     .background-layer
@@ -40,25 +39,17 @@ $topContHeight: 300px
             font-weight: bold
             letter-spacing: 0.5px
             margin-bottom: 20px
-.progress
-  width: 50%
-  margin: 0 auto
-  height: 27px
-.progress-bar
-  line-height: 27px
-.sr-only
-  margin: 0 auto
-  color: white
+.big-container
+  width: 100%
+  background: white
+  width: 100%
+  background: #fff
+  z-index: 9
+  margin: 300px 0px 0px
   position: relative
-  font-size: 2em
-  font-weight: bold
-#cd-timeline
-  background: #e9f0f5 !important
-  margin-top: $topContHeight !important
-  width: 100% !important
-  padding: 50px 50px !important
-  max-width: 100% !important
-
-@media screen and (min-width: 1366px)
-  #cd-timeline
-    padding: 50px 170px !important
+  padding: 70px 0px
+@media screen and (max-width: 768px)
+  .big-container
+    padding: 50px 0px 20px 0px
+  td
+    padding: 0px 25px

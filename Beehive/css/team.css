@@ -62,13 +62,15 @@
     .top-stripe .row .outer .inner .first-article {
       text-align: left;
       font-family: "Open Sans", sans-serif !important; }
-      .top-stripe .row .outer .inner .first-article h2 {
-        font-size: 1.75em;
-        font-weight: bold;
-        margin-top: 0px;
-        margin-bottom: 15px; }
-      .top-stripe .row .outer .inner .first-article p {
-        font-size: 1.125em; }
+      .top-stripe .row .outer .inner .first-article .col-xs-12 {
+        padding: 25px 15px; }
+        .top-stripe .row .outer .inner .first-article .col-xs-12 h2 {
+          font-size: 1.75em;
+          font-weight: bold;
+          margin-top: 0px;
+          margin-bottom: 15px; }
+        .top-stripe .row .outer .inner .first-article .col-xs-12 p {
+          font-size: 1.125em; }
 
 .big-team-container {
   background: url("/wp-content/uploads/config/IMG_5807.jpg") no-repeat center center;
@@ -143,29 +145,34 @@
   border-color: transparent !important; }
 
 .member-image {
-  background: url("../images/jkopec.png") no-repeat center center;
+  background: url("../images/profilbilder/jakub_kopec.jpg") no-repeat center center;
   background-size: cover;
   z-index: 50;
   margin: 0 auto;
   height: 170px;
   width: 170px;
+  border-radius: 50%;
+  border: 1px solid white;
   position: relative; }
 
 .panel-footer {
   border: 1px solid #ddd; }
 
 .member-2 {
-  background: url("../images/aernhofer.png") no-repeat center center;
+  background: url("../images/profilbilder/andreas_ernhofer.jpg") no-repeat center center;
   background-size: cover; }
 
 .member-3 {
-  background: url("../images/mreilaender.png") no-repeat center center;
+  background: url("../images/profilbilder/manuel_reilaender.jpg") no-repeat center center;
   background-size: cover; }
 
 @media screen and (max-width: 768px) {
   .member-wrapper {
     width: 60%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .top-layer-ng {
+    padding-bottom: 55px; } }
 @media screen and (min-width: 768px) and (max-width: 1180px) {
   .container {
     width: auto; }

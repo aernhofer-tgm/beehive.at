@@ -93,7 +93,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--<div class="container top-stripe">
+                    <div class="container top-stripe">
                         <div class="row">
                             <div class="outer">
                                 <div class="inner">
@@ -108,7 +108,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
