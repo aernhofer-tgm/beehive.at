@@ -29,7 +29,7 @@
           <hr class="lines" />
           <li class="nav-items"><a href="../?page=team">Team</a></li>
           <hr class="lines" />
-          <li class="nav-items"><a href="../?page=ergebnisse">Ergebnisse</a></li>
+          <li class="nav-items"><a href="../?page=ergebnisse">Fortschritt</a></li>
           <hr class="lines" />
           <li class="nav-items"><a href="../?page=feedback">Feedback</a></li>
           <hr class="lines" />

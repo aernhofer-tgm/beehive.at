@@ -1,2 +1,47 @@
-.clearfix{zoom:1;display:block !important}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.top-page-container{position:fixed;width:100%;top:44px;height:300px}.top-page-container .top-page-container-inner{position:relative}.top-page-container .top-page-container-inner .background-layer{background:url("../images/o-TECHNOLOGY-facebook.jpg") no-repeat top right;background-size:cover;height:300px}.top-page-container .top-page-container-inner .background-layer .top-layer{height:300px;width:100%;background:rgba(0,0,0,0.8);display:table;clear:both;margin-top:-44px}.top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content{display:table-cell !important;vertical-align:middle;text-align:center;position:relative}.top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content h1{color:#fff;font-size:1.75em;font-family:"Open Sans",sans-serif;font-weight:bold;letter-spacing:0.5px;margin-bottom:20px}.big-container{width:100%;background:#fff;z-index:5;margin-top:300px;height:100%;position:relative}
-/*# sourceMappingURL=ergebnis.css.map */
+.clearfix {
+  zoom: 1;
+  display: block !important; }
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
+.top-page-container {
+  position: fixed;
+  width: 100%;
+  top: 44px;
+  height: 300px; }
+  .top-page-container .top-page-container-inner {
+    position: relative; }
+    .top-page-container .top-page-container-inner .background-layer {
+      background: url("/wp-content/uploads/config/tastatur_zoom.jpg") no-repeat center center;
+      background-size: cover;
+      height: 300px; }
+      .top-page-container .top-page-container-inner .background-layer .top-layer {
+        height: 300px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        display: table;
+        clear: both;
+        margin-top: -44px; }
+        .top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content {
+          display: table-cell !important;
+          vertical-align: middle;
+          text-align: center;
+          position: relative; }
+          .top-page-container .top-page-container-inner .background-layer .top-layer .top-page-container-inner-content h1 {
+            color: white;
+            font-size: 1.75em;
+            font-family: "Open Sans", sans-serif;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px; }
+
+.big-container {
+  width: 100%;
+  background: white;
+  z-index: 5;
+  margin-top: 300px;
+  height: 100%;
+  position: relative; }
