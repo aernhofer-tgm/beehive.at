@@ -124,7 +124,7 @@
     background-size: cover; }
 
   .abc {
-    background: url("../images/piorch.png") no-repeat top center !important;
+    background: url("/wp-content/uploads/config/piorch.jpg") no-repeat top center !important;
     background-size: cover; } }
 .top-layer-nd {
   padding: 8% 0%;

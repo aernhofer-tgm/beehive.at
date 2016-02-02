@@ -20,7 +20,7 @@
   <?php do_action('slideshow_deploy','38');?>
 </div>
 <?php wp_footer(); ?>
-
+<!--
 <div class="startseite-wrapper container">
   <div class="row">
     <div class="kleine-container col-md-3 col-sm-6 col-xs-12 projektbeschreibung">
@@ -64,3 +64,4 @@
     </div>
   </div>
 </div>
+-->

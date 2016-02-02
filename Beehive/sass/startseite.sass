@@ -41,20 +41,24 @@ $navbar-height: 44px
     display: table-cell
     vertical-align: middle
     text-align: center
+    text-shadow: 0px 0px 70px rgba(0, 0, 0, 0.75)
     color: white
     h1
       font-size: 5em
     small
       font-size: 1.75em
       font-weight: 300
+      text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.75)
       margin-bottom: 20px
     .btn-wrapper
       margin-top: 50px
       .main-explore-btn
         padding: 8px 70px
-        background: rgba(255, 255, 255, 0.15)
+        background: rgba(255, 255, 255, 0.2)
         font-size: 1.75em
-        border: 2px solid white
+        text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.90)
+        border: 1px solid white
+        border-radius: 5px
         color: white
         font-weight: 300
         position: relative
@@ -65,7 +69,7 @@ $navbar-height: 44px
           height: 0%
           top: 0
           left: 0
-          background: rgba(255, 255, 255, 0.3)
+          //background: rgba(255, 255, 255, 0.3)
         &:hover,
         &:active
           color: #2B2B2B
@@ -179,23 +183,23 @@ $navbar-height: 44px
       opacity: 1
 
 /* some queries ne digga */
+
 @media screen and (max-width: 768px)
   .home-top-container
     .container
-      margin-top: 12%
-@media screen and (max-width: 768px)
-  .home-top-container
-    margin-top: $navbar-height
-    .container
-      margin-top: 4%
-  .inner-content
-    p
-      opacity: 1
-      @include animTransYNone
+      .inner-startseite
+        h1
+          font-size: 2.75em !important
+        small
+          font-size: 1.5em !important
+        .btn-wrapper
+          .main-explore-btn
+            font-size: 1.5em
+            padding: 5px 45px
+
 @media screen and (max-width: 668px)
   .home-top-container
     .container
-      margin-top: 2%
       .inner-startseite
         h1
           font-size: 2.5em !important
@@ -214,7 +218,11 @@ $navbar-height: 44px
       margin-top: -5%
 
 .slideshow_content
-  opacity: 0.5
+  -webkit-filter: blur(5px)
+  -moz-filter: blur(5px)
+  -o-filter: blur(5px)
+  -ms-filter: blur(5px)
+  filter: blur(5px)
 /* Large desktop */
 // @media screen and (min-width: 979px)
 //   .slideshow_content

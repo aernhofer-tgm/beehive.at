@@ -26,7 +26,7 @@
                                             <h2>Wer sind wir?</h2>
                                             <img style="width:150px;float:left;margin-right:30px;" src="/wp-content/themes/Beehive/images/logo/TGM_Logo_solo.png" />
                                             <p>
-                                               Wir sind Schüler des TGMs 1220, Wien und besuchen die Informationstechnologische Abteilung. Wir gehen in die selbe Klasse und haben uns Beehive Management als unser Diplomprojekt vorgenommen. Falls Sie uns besser kennenlernen wollen oder uns persönlich kontaktieren wollen, sind wir per Facebook oder Email zu erreichen. :)
+                                               Wir sind Schüler des TGMs 1200, Wien und besuchen die Informationstechnologische Abteilung. Wir gehen in die selbe Klasse und haben uns Beehive Management als unser Diplomprojekt vorgenommen. Falls Sie uns besser kennenlernen wollen oder uns persönlich kontaktieren wollen, sind wir per Facebook oder Email zu erreichen. :)
                                             </p>
                                         </div>
                                     </div>
