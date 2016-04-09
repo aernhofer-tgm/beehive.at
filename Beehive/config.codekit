@@ -399,35 +399,134 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/aernhofer.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 68056,
-		"inputAbbreviatedPath": "\/images\/aernhofer.png",
-		"outputAbbreviatedPath": "\/images\/aernhofer.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/champ.jpg": {
+	"\/images\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 328379,
-		"inputAbbreviatedPath": "\/images\/champ.jpg",
-		"outputAbbreviatedPath": "\/images\/champ.jpg",
+		"initialSize": 1.99106e+06,
+		"inputAbbreviatedPath": "\/images\/bg.jpg",
+		"outputAbbreviatedPath": "\/images\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/jkopec.png": {
-		"fileType": 32768,
+	"\/images\/config\/fortschritt4.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31856,
-		"inputAbbreviatedPath": "\/images\/jkopec.png",
-		"outputAbbreviatedPath": "\/images\/jkopec.png",
+		"initialSize": 371238,
+		"inputAbbreviatedPath": "\/images\/config\/fortschritt4.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/fortschritt4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/gruppenfoto_fhd.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/config\/gruppenfoto_fhd.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/gruppenfoto_fhd.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/gruppenfoto_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11795,
+		"inputAbbreviatedPath": "\/images\/config\/gruppenfoto_thumb.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/gruppenfoto_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/IMG_5807.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/config\/IMG_5807.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/IMG_5807.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/jungunternehmertag_decke.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/config\/jungunternehmertag_decke.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/jungunternehmertag_decke.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/jungunternehmertag_messe_wien.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/config\/jungunternehmertag_messe_wien.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/jungunternehmertag_messe_wien.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/jungunternehmertag_miniatur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/config\/jungunternehmertag_miniatur.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/jungunternehmertag_miniatur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/letter_love.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/config\/letter_love.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/letter_love.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/piorch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/config\/piorch.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/piorch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/tgm_fotografiert.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/config\/tgm_fotografiert.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/tgm_fotografiert.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/config\/waage_miniatur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/config\/waage_miniatur.jpg",
+		"outputAbbreviatedPath": "\/images\/config\/waage_miniatur.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -498,28 +597,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/mreilaender.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 31856,
-		"inputAbbreviatedPath": "\/images\/mreilaender.png",
-		"outputAbbreviatedPath": "\/images\/mreilaender.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/o-TECHNOLOGY-facebook.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14480,
-		"inputAbbreviatedPath": "\/images\/o-TECHNOLOGY-facebook.jpg",
-		"outputAbbreviatedPath": "\/images\/o-TECHNOLOGY-facebook.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/piorch.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -571,50 +648,6 @@
 		"initialSize": 76744,
 		"inputAbbreviatedPath": "\/images\/settings_Background.png",
 		"outputAbbreviatedPath": "\/images\/settings_Background.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/Team Success Wallpaper.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 256267,
-		"inputAbbreviatedPath": "\/images\/Team Success Wallpaper.jpg",
-		"outputAbbreviatedPath": "\/images\/Team Success Wallpaper.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/tech1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 107708,
-		"inputAbbreviatedPath": "\/images\/tech1.jpg",
-		"outputAbbreviatedPath": "\/images\/tech1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/tree_background_index_slide.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 636056,
-		"inputAbbreviatedPath": "\/images\/tree_background_index_slide.jpg",
-		"outputAbbreviatedPath": "\/images\/tree_background_index_slide.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/vodk.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74761,
-		"inputAbbreviatedPath": "\/images\/vodk.jpg",
-		"outputAbbreviatedPath": "\/images\/vodk.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

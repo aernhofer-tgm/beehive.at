@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <title>Beehive</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:200' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/external/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/navbar.css">
-  <link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/footer.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/external/bootstrap/css/bootstrap.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/navbar.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/footer.css" type="text/css" media="screen" />
 
-  <script src="/wp-content/themes/Beehive/external/jquery/jquery.js"></script>
-  <script src="/wp-content/themes/Beehive/external/bootstrap/js/bootstrap.js"></script>
+  <script src="<?php bloginfo('template_directory'); ?>/external/jquery/jquery.js"></script>
+  <script src="<?php bloginfo('template_directory'); ?>/external/bootstrap/js/bootstrap.js"></script>
 </head>
 
 <body>
@@ -20,9 +20,9 @@
       <div class="menu-trigger">
         <span class="clickable">≡</span>
       </div>
-      <a href="../?page=startseite"><img class="l-collapsed" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo.png"></a>
+      <a href="../?page=startseite"><img class="l-collapsed" src="<?php bloginfo('template_directory'); ?>/images/logo/Beehive-Logo.png"></a>
         <ul class="col-xs-12 nav-ul">
-          <li class="nav-items first"><a style="cursor:default;"><img class="logo" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo.png" /></a></li>
+          <li class="nav-items first"><a style="cursor:default;"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo/Beehive-Logo.png" /></a></li>
           <li class="nav-items"><a href="../?page=startseite">Startseite</a></li>
           <hr class="lines" />
           <li class="nav-items"><a href="../?page=projektbeschreibung">Projektbeschreibung</a></li>
@@ -38,7 +38,7 @@
         </ul>
       </div>
   </nav>
-  <script src="/wp-content/themes/Beehive/scripts/menu-trigger.js" defer></script>
+  <script src="<?php bloginfo('template_directory'); ?>/scripts/menu-trigger.js" defer></script>
 
   <div class="col-md-6 col-md-push-3">
     <h1 style="text-align:center;font-size:100px;margin-top:60px;">Oops!</h1>

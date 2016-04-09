@@ -3,9 +3,9 @@
     <div class="menu-trigger">
       <span class="clickable">≡</span>
     </div>
-    <a href="?page=startseite"><img class="l-collapsed" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo-Thumbnail.png"></a>
+    <a href="?page=startseite"><img class="l-collapsed" src="<?php bloginfo('template_directory'); ?>/images/logo/Beehive-Logo-Thumbnail.png"></a>
       <ul class="col-xs-12 nav-ul">
-        <li class="nav-items first"><a href="?page=startseite"><img class="logo" src="/wp-content/themes/Beehive/images/logo/Beehive-Logo-Thumbnail.png" /></a></li>
+        <li class="nav-items first"><a href="?page=startseite"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo/Beehive-Logo-Thumbnail.png" /></a></li>
         <li class="nav-items"><a href="?page=startseite">Startseite</a></li>
         <hr class="lines" />
         <li class="nav-items"><a href="?page=projektbeschreibung">Beschreibung</a></li>
@@ -26,4 +26,4 @@
       </ul>
     </div>
 </nav>
-<script src="/wp-content/themes/Beehive/scripts/menu-trigger.js" defer></script>
+<script src="<?php bloginfo('template_directory'); ?>/scripts/menu-trigger.js" defer></script>

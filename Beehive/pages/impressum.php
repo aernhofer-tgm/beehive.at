@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/wp-content/themes/Beehive/css/impressum.css">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/impressum.css">
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 <div class="top-page-container">

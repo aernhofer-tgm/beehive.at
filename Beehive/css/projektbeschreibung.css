@@ -15,13 +15,13 @@
   .top-page-container .top-page-container-inner {
     position: relative; }
     .top-page-container .top-page-container-inner .background-layer {
-      background: url("/wp-content/uploads/config/tastatur_zoom.jpg") no-repeat center center;
+      background: url("../images/config/jungunternehmertag_decke.jpg") no-repeat center center;
       background-size: cover;
       height: 300px; }
       .top-page-container .top-page-container-inner .background-layer .top-layer {
         height: 300px;
         width: 100%;
-        background: rgba(0, 0, 0, 0.8);
+        background: transparent;
         display: table;
         clear: both;
         margin-top: -44px; }
@@ -86,7 +86,7 @@
             .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .web-dev-code .article .article-section p {
               font-size: 1.175em; }
       .main-container .container-inner-content .main-inner-content .main-inner-content-fixed .abc {
-        background: url("/wp-content/uploads/config/piorch.jpg") no-repeat center center;
+        background: url("../images/config/piorch.jpg") no-repeat center center;
         background-attachment: fixed;
         background-size: cover;
         position: relative; }
@@ -124,11 +124,11 @@
     background-size: cover; }
 
   .abc {
-    background: url("/wp-content/uploads/config/piorch.jpg") no-repeat top center !important;
+    background: url("../images/config/piorch.jpg") no-repeat top center !important;
     background-size: cover; } }
 .top-layer-nd {
   padding: 8% 0%;
   height: 100%;
   width: 100%;
   color: white;
-  background: rgba(0, 0, 0, 0.8); }
+  background: rgba(0, 0, 0, 0.3); }

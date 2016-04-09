@@ -1,5 +1,5 @@
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/jenkins.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/jenkins.css">
 <div class="top-page-container">
     <div class="top-page-container-inner">
         <div class="background-layer">

@@ -15,13 +15,13 @@
   .top-page-container .top-page-container-inner {
     position: relative; }
     .top-page-container .top-page-container-inner .background-layer {
-      background: url("/wp-content/uploads/config/tgm_fotografiert.jpg") no-repeat top right;
+      background: url("../images/config/tgm_fotografiert.jpg") no-repeat top right;
       background-size: cover;
       height: 300px; }
       .top-page-container .top-page-container-inner .background-layer .top-layer {
         height: 300px;
         width: 100%;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(0, 0, 0, 0.3);
         display: table;
         clear: both;
         margin-top: -44px; }
@@ -73,7 +73,7 @@
           font-size: 1.125em; }
 
 .big-team-container {
-  background: url("/wp-content/uploads/config/IMG_5807.jpg") no-repeat center center;
+  background: url("../images/config/IMG_5807.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   position: relative; }
@@ -81,7 +81,7 @@
     height: 100%;
     width: 100%;
     color: white;
-    background: rgba(0, 0, 0, 0.6); }
+    background: rgba(0, 0, 0, 0.3); }
 
 .team-wrapper {
   z-index: 2;

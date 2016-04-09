@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/ergebnis.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/ergebnis.css">
 <div class="top-page-container">
   <div class="top-page-container-inner">
     <div class="background-layer">
@@ -33,17 +33,17 @@
    <!-- Wrapper for slides -->
    <div class="carousel-inner" role="listbox">
      <div class="item active">
-       <img src="/wp-content/themes/Beehive/images/settings_Background.png" alt="...">
+       <img src="<?php bloginfo('template_directory'); ?>/images/settings_Background.png" alt="...">
        <div class="carousel-caption">
        </div>
      </div>
      <div class="item">
-       <img src="/wp-content/themes/Beehive/images/piorch.png" alt="...">
+       <img src="<?php bloginfo('template_directory'); ?>/images/piorch.png" alt="...">
        <div class="carousel-caption">
        </div>
      </div>
      <div class="item">
-       <img src="/wp-content/themes/Beehive/images/champ.jpg" alt="...">
+       <img src="<?php bloginfo('template_directory'); ?>/images/champ.jpg" alt="...">
        <div class="carousel-caption">
        </div>
      </div>

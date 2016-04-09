@@ -10,6 +10,6 @@
     <p style="text-align:center;">Copyright © Beehive Management 2015 ® All rights reserved</p>
   </div>
   <div class="col-md-4">
-    <div style="float:right;"><img id="it_logo" src="/wp-content/themes/Beehive/images/logo/it_logo.png" style="width:200px"></div>
+    <div style="float:right;"><img id="it_logo" src="<?php bloginfo('template_directory'); ?>/images/logo/it_logo.png" style="width:200px"></div>
   </div>
 </footer>

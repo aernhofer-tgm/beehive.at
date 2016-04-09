@@ -1,6 +1,7 @@
-<?php session_start(); ?>
-<?php get_header(); ?>
 <?php
+	session_start();
+	get_header();
+
 	$file = $_GET["page"];
 	if($file==null)
 	$file = "startseite";
@@ -12,5 +13,6 @@
     header('Location: 404.php');
     exit;
   }
+	if($file!="startseite")
+	get_footer();
 ?>
-<?php get_footer(); ?>

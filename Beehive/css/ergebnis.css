@@ -15,7 +15,7 @@
   .top-page-container .top-page-container-inner {
     position: relative; }
     .top-page-container .top-page-container-inner .background-layer {
-      background: url("/wp-content/uploads/config/tastatur_zoom.jpg") no-repeat center center;
+      background: url("../images/config/tastatur_zoom.jpg") no-repeat center center;
       background-size: cover;
       height: 300px; }
       .top-page-container .top-page-container-inner .background-layer .top-layer {

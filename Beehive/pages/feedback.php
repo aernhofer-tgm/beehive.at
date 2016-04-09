@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/feedback.css">
-<link rel="stylesheet" type="text/css" href="/wp-content/themes/Beehive/css/animate.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/feedback.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/animate.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <div class="page-wrapper">
   <div class="top-page-container">
@@ -17,7 +17,7 @@
   <div class="container feedback-wrapper">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 feedback-inner" style="border-right: 1px solid #dfdfdf;">
-        <form method="post" action="/wp-content/themes/Beehive/action/mail_senden.php">
+        <form method="post" action="<?php bloginfo('template_directory'); ?>/action/mail_senden.php">
           <fieldset>
             <legend>Gib uns ein Feedback!</legend>
             <label class="form-label">Name</label>
@@ -53,8 +53,8 @@
     </div>
   </div>
 </div>
-<script src="/wp-content/themes/Beehive/scripts/unnedigerDu.js"></script>
-<script src="/wp-content/themes/Beehive/scripts/mail_ueberpruefung.js" type="text/javascript"></script>
+<script src="<?php bloginfo('template_directory'); ?>/scripts/unnedigerDu.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/scripts/mail_ueberpruefung.js" type="text/javascript"></script>
 <style>
   .modal {
   text-align: center;
